@@ -1,0 +1,27 @@
+#include<stdio.h>
+struct fractions
+{
+	int a,b;
+}
+int input()
+{
+	int a, int b;
+	printf("Enter the values of a and b:");
+	scanf("%d%d",&a,&b);
+}
+int add(int a, int b)
+{
+	int c;
+	c=a+b;
+	return c;
+}
+void output(int n)
+{
+	printf("The sum of two fractions is %d",n);
+}
+int main()
+{
+	int a=input();
+	int b=add(a,b);
+	output(b);
+}
