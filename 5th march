@@ -1,0 +1,27 @@
+#include<stdio.h>
+int input(int num1, int num2)
+{
+  int den1,den2;
+  printf("Enter the fractions:");
+  scanf("%dnum%dden1%dnum2%dden2",&num1,&den1,&num2,&den2);
+}
+int compute(int res1,int res2)
+{
+  int num1,num2;
+  int den1,den2;
+  res1=(num1*den2)+(num2*den1);
+  res2=res1/(den1*den2);
+}
+void output(int res2)
+{
+  printf("The sum of two fractions is %d",res2);
+}
+int main()
+{
+  int a,b,c,d,k,r;
+  input(a,c);
+  compute(r,k);
+  r=((a*d)+(c*b));
+  k=(r/(b*d));
+  output(k);
+}
